@@ -9,11 +9,11 @@ In this project i'm working as a data scientist with a new company Space Y, the 
 
 ## Methodology
 <ul>
-  <li>Data collection methodology</li>  
+  <li>Data collection</li>
   <li>Data wrangling and cleaning</li>
   <li>Exploratory Data Analysis (EDA)</li> 
-  <li>Perform interactive visual analytics using Folium</li>
-  <li>Perform predictive analysis using classification models</li>
+  <li>Interactive visual analytics using Folium</li>
+  <li>Predictive analysis using classification models</li>
 </ul>
 
 ## Project Summary
