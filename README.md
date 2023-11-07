@@ -11,7 +11,7 @@ In this project i'm working as a data scientist with a new company Space Y, the 
 <ul>
   <li>Data collection methodology</li>  
   <li>Data wrangling and cleaning</li>
-  <li>Exploratory Data Analysis (EDA)</ul> 
+  <li>Exploratory Data Analysis (EDA)</li> 
   <li>Perform interactive visual analytics using Folium</li>
   <li>Perform predictive analysis using classification models</li>
 </ul>
