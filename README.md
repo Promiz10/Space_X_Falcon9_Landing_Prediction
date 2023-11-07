@@ -4,7 +4,7 @@
 In this project i'm working as a data scientist with a new company Space Y, the goal of this project is to build a model to predict if Space X Falcon 9 launches first stage will land as it can be used to determine the price of a launch.
 
 ## Data Sources
-1. Data will be collected using space x rest api, this data will give details about launching, rocket used, payload, launch specifications, landing specification and landing outcome. Our goal is to use this data to determine if Space X Falcon 9 will land a first stage successfullly or not.
+1. Data will be collected using Space X REST api, this data will give details about launching, rocket used, payload, launch specifications, landing specification and landing outcome. Our goal is to use this data to determine if Space X Falcon 9 will land a first stage successfullly or not.
 2. Webscrapping wikipedia page on space X historical launch data to get relevant data for Space X launches
 
 ## Methodology
@@ -17,3 +17,8 @@ In this project i'm working as a data scientist with a new company Space Y, the 
 </ul>
 
 ## Project Summary
+<ul>
+  <li>Space X launch data was collected using Space X REST API. Launch Data collected includes the following details about each launch: Flight Number, Date, Booster Version, Payload Mass, Orbit, Launch Site, Flights, Grid Fins, Reused, Legs, Landing Pad, Block, Reused Count, Serial, Longitude and Latitude. Historical Falcon 9 Launch were collected from a Wikipedia page titled List of falcon 9 Heavy Launches. The data collection process was web scraping the page to collect relevant data for our project. Data collected from the web scraping includes; Flight No., Launch site, Payload, Payload mass, Orbit, Customer, Launch outcome, Version Booster, Booster landing, Date and Time</li> 
+  <li>Falcon 9 launches saw steady increase in succesfull first stage landing from 2013 to 2020. It has a total of 4 Launch sites and payload ranges between 0 – 16000 kg. The launch orbits are LEO, ISS, PO, GTO, ES-L1, SSO, HEO, MEO, VLEO, SO, GEO. These parameters and other parameters with significant relationships were used to develop a classification model.</li>
+  <li>Trained a model with a prediction accuracy of 83.33% The models were trained and tested using GridsearchCV as it picks the best suited parameters for our model.</li>
+</ul>
